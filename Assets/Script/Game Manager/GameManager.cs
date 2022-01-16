@@ -41,9 +41,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private PizzaVariantScript[] pizzaVariantScript;
 
     [SerializeField] private GameObject[] UI = null;
-    [SerializeField] private Text gameCoin = null;
-    [SerializeField] private Text nextCoin = null;
-    [SerializeField] private Text AdCoin = null;
+    //[SerializeField] private Text gameCoin = null;
+    //[SerializeField] private Text nextCoin = null;
+    //[SerializeField] private Text AdCoin = null;
     [SerializeField] private GameObject[] levels = null;
     private int level = 0;
 
@@ -89,7 +89,7 @@ public class GameManager : MonoBehaviour
         //PizzaMinus();
         PizzaDelivery();
         coins = PlayerPrefs.GetInt("Coins");
-        gameCoin.text = 100.ToString();
+        //gameCoin.text = 100.ToString();
     }
 
     private void InputSystem()
@@ -157,7 +157,6 @@ public class GameManager : MonoBehaviour
     {
         if (playerColliderScript.pizzaMinus)
         {
-
             Destroy(pizza[0],0.2f);
             pizza.RemoveAt(0);
             pizzaList.RemoveAt(0);
@@ -236,8 +235,8 @@ public class GameManager : MonoBehaviour
             playerColliderScript.playerCollider.isTrigger = true;
             playerColliderScript.playerAnimator.SetBool("Victory", true);
             UI[0].SetActive(true);
-            nextCoin.text = coin.ToString();
-            AdCoin.text =  (coin * 3).ToString();
+            //nextCoin.text = coin.ToString();
+            //AdCoin.text =  (coin * 3).ToString();
             /*
             for (int i = 0; i < pizzaList.Count; i++)
             {
@@ -262,14 +261,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void NextButton()
-    {
-        level++;
-        coins += 100 ;
-        PlayerPrefs.GetInt("Coins", coins);
-        PlayerPrefs.SetInt("Level", level);
-        SceneManager.LoadScene(0);
-    }
     public void NextAdButton()
     {
         level++;

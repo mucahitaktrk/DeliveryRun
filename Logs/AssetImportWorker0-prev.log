@@ -1,0 +1,662 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/2020.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mucahitakturk/DeliveryRun
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50643
+Successfully changed project path to: /Users/mucahitakturk/DeliveryRun
+/Users/mucahitakturk/DeliveryRun
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 59.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path /Applications/Unity/2020.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mucahitakturk/DeliveryRun/Assets
+GfxDevice: creating device client; threaded=0
+2022-01-16 16:26:14.778 Unity[8070:153662] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2022-01-16 16:26:14.778 Unity[8070:153662] Metal devices available: 1
+2022-01-16 16:26:14.778 Unity[8070:153662] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2022-01-16 16:26:14.778 Unity[8070:153662] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Initialize mono
+Mono path[0] = '/Applications/Unity/2020.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56070
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/2020.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003076 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 60.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.426 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011748 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/2020.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1647 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.9 MB.
+System memory in use after: 170.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2085.
+Total: 2.730201 ms (FindLiveObjects: 0.305020 ms CreateObjectMapping: 0.077056 ms MarkObjects: 2.264991 ms  DeleteObjects: 0.082100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016460 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.229 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1626 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2087.
+Total: 2.056114 ms (FindLiveObjects: 0.175444 ms CreateObjectMapping: 0.050980 ms MarkObjects: 1.809206 ms  DeleteObjects: 0.019606 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/AD_FimpAnimating.Editor.asmdef
+  artifactKey: Guid(dd431e1b1b225a74d975a33adf3a4f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/AD_FimpAnimating.Editor.asmdef using Guid(dd431e1b1b225a74d975a33adf3a4f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef5e2dacfa63ae0b6aca5cece1dbba9') in 1.606533 seconds 
+  Import took 1.613830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/FImpossible Creations/Editor/Plugins - Editor - Audio/AD_FimpAudio.Editor.asmdef
+  artifactKey: Guid(b47ca91847e5f424c84f675e1d9b9929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Editor/Plugins - Editor - Audio/AD_FimpAudio.Editor.asmdef using Guid(b47ca91847e5f424c84f675e1d9b9929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d65ae786f2983cfd153a15f7eefd19') in 0.005143 seconds 
+  Import took 0.010036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/CFX3_MagicAura_B_Runic.prefab
+  artifactKey: Guid(60bc526f4be1e044ab9e46340b82ffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/CFX3_MagicAura_B_Runic.prefab using Guid(60bc526f4be1e044ab9e46340b82ffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c7fbe93bcb99a93b6a618e567adf05') in 0.179935 seconds 
+  Import took 0.184684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Dark/CFX3_DarkMagicAura_B_Runic.prefab
+  artifactKey: Guid(a64994383c8e6e04da38317305feb78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Dark/CFX3_DarkMagicAura_B_Runic.prefab using Guid(a64994383c8e6e04da38317305feb78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515a764389aeeaa51e855d18693511ac') in 0.006638 seconds 
+  Import took 0.011119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/Color Variants/CFX3_MagicAura_B_Runic (Green).prefab
+  artifactKey: Guid(58c7457b93a02ed41b7ab4c6e07a7f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/Color Variants/CFX3_MagicAura_B_Runic (Green).prefab using Guid(58c7457b93a02ed41b7ab4c6e07a7f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff87238725a9d9a4693f941e3365b17') in 0.005338 seconds 
+  Import took 0.009329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/Color Variants/CFX3_MagicAura_D_Runic (Yellow).prefab
+  artifactKey: Guid(efb4102956b03ef4892e4859c39f1703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/Color Variants/CFX3_MagicAura_D_Runic (Yellow).prefab using Guid(efb4102956b03ef4892e4859c39f1703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d8214fc3051ac3d84e00eae4d5fde1') in 0.004943 seconds 
+  Import took 0.009684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/Color Variants/CFX3_MagicAura_B_Runic (Orange).prefab
+  artifactKey: Guid(5bce25ba7397bb749beb9e8ace52b5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/Color Variants/CFX3_MagicAura_B_Runic (Orange).prefab using Guid(5bce25ba7397bb749beb9e8ace52b5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e6966148bcdf75924dfb0a30708789') in 0.005455 seconds 
+  Import took 0.009253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/CFX3_MagicAura_D_Runic.prefab
+  artifactKey: Guid(e3d819d8722fa1f47a3f68574b56dfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/CFX3_MagicAura_D_Runic.prefab using Guid(e3d819d8722fa1f47a3f68574b56dfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698ad5aeb40cedb323ab358e538aeaeb') in 0.006254 seconds 
+  Import took 0.010611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Fire/Color Variants/CFX3_Flying_Ember_Disrupted_Upward (Green).prefab
+  artifactKey: Guid(d66036dfe8c4c134e96ac7fa3beb0151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Fire/Color Variants/CFX3_Flying_Ember_Disrupted_Upward (Green).prefab using Guid(d66036dfe8c4c134e96ac7fa3beb0151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce91ac759b0568036c8028b585aca993') in 0.003302 seconds 
+  Import took 0.006804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/Color Variants/CFX3_MagicAura_D_Runic (Blue).prefab
+  artifactKey: Guid(72cf04159eef0d24586fc62a301e40d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/Color Variants/CFX3_MagicAura_D_Runic (Blue).prefab using Guid(72cf04159eef0d24586fc62a301e40d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71a2d8934748e26b960b9742f2c9696') in 0.004915 seconds 
+  Import took 0.009844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/FImpossible Creations/Plugins - Other/AD_FimpOther.asmdef
+  artifactKey: Guid(5479aa867543fff4abb2baec926f721f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Plugins - Other/AD_FimpOther.asmdef using Guid(5479aa867543fff4abb2baec926f721f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e9792967a4918102de3fc9c33ef89b') in 0.002203 seconds 
+  Import took 0.006138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Dark/Color Variants/CFX3_DarkMagicAura_B_Runic (Black).prefab
+  artifactKey: Guid(3578fa4117a41244d9106915538cc011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Dark/Color Variants/CFX3_DarkMagicAura_B_Runic (Black).prefab using Guid(3578fa4117a41244d9106915538cc011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89a8d91db54751a458f4dd0e0864726') in 0.005894 seconds 
+  Import took 0.010362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/Color Variants/CFX3_MagicAura_B_Runic (Blue).prefab
+  artifactKey: Guid(6eef8fd94177c2b49bcef51b6eac54f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/Color Variants/CFX3_MagicAura_B_Runic (Blue).prefab using Guid(6eef8fd94177c2b49bcef51b6eac54f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a82de054656ab1e57ba4ccd98a227f2') in 0.004197 seconds 
+  Import took 0.008090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Flying_Ember_Disrupted_Upward.prefab
+  artifactKey: Guid(d35e92ed975dcbb4eb4ba522b5545261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Flying_Ember_Disrupted_Upward.prefab using Guid(d35e92ed975dcbb4eb4ba522b5545261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6612e9e511872e5ac9744777f628b80') in 0.003163 seconds 
+  Import took 0.006641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/Color Variants/CFX3_MagicAura_D_Runic (Red).prefab
+  artifactKey: Guid(58f8c03e5574bd348a97110f99534f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Misc/Color Variants/CFX3_MagicAura_D_Runic (Red).prefab using Guid(58f8c03e5574bd348a97110f99534f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3f1ba45ae7e30ec6ddec47b1483f27') in 0.006208 seconds 
+  Import took 0.010809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/FImpossible Creations/Plugins - Shared/AD_FimpShared.asmdef
+  artifactKey: Guid(0e6b1f35d8416da46a5e09a445db4184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Plugins - Shared/AD_FimpShared.asmdef using Guid(0e6b1f35d8416da46a5e09a445db4184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fdd2ad9e0ff3837eb9ddc78aa15a94') in 0.001542 seconds 
+  Import took 0.004846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Dark/Color Variants/CFX3_DarkMagicAura_B_Runic (Blue).prefab
+  artifactKey: Guid(c18ff78f59b685647ac0b14049b0382c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Dark/Color Variants/CFX3_DarkMagicAura_B_Runic (Blue).prefab using Guid(c18ff78f59b685647ac0b14049b0382c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1de8ed323400f5617dd8a6b983b917') in 0.005814 seconds 
+  Import took 0.009608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs (Mobile)/Magic Dark/Color Variants/CFXM3_DarkMagicAura_B_Runic (Black).prefab
+  artifactKey: Guid(4a8f03f6ef9ca914baf0934a4c802692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs (Mobile)/Magic Dark/Color Variants/CFXM3_DarkMagicAura_B_Runic (Black).prefab using Guid(4a8f03f6ef9ca914baf0934a4c802692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105185f7ffd354feaae0a9e9ef637272') in 0.004438 seconds 
+  Import took 0.008633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/FImpossible Creations/Shared Tools/Editor/AD_FimpSharedTools.Editor.asmdef
+  artifactKey: Guid(103829f02546ce64db83be245c91a2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Shared Tools/Editor/AD_FimpSharedTools.Editor.asmdef using Guid(103829f02546ce64db83be245c91a2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86d3be6e73e14133a2d51a9ce824a55') in 0.001820 seconds 
+  Import took 0.005228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Dark/Color Variants/CFX3_DarkMagicAura_B_Runic (Green).prefab
+  artifactKey: Guid(37948035eb12d6a4687140bac187dc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Magic Dark/Color Variants/CFX3_DarkMagicAura_B_Runic (Green).prefab using Guid(37948035eb12d6a4687140bac187dc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a464cc7cda47e0c4e7e0d57aa5689d') in 0.007527 seconds 
+  Import took 0.011858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/FImpossible Creations/Editor/AD_Fimpos.Editor.asmdef
+  artifactKey: Guid(cc00d04e0a0104949875050b6f122a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Editor/AD_Fimpos.Editor.asmdef using Guid(cc00d04e0a0104949875050b6f122a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c18450b2abe8d5e1eb114ff4df52ea') in 0.001627 seconds 
+  Import took 0.005167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/Materials/Light/CFX3_AuraRunic MULT.mat
+  artifactKey: Guid(86742e5b8ca0d60438366fde15e7ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/Materials/Light/CFX3_AuraRunic MULT.mat using Guid(86742e5b8ca0d60438366fde15e7ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2864033637f01e1612ee6bbe085265') in 0.370340 seconds 
+  Import took 0.374705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/Textures/CFX3_T_AuraRunic.png
+  artifactKey: Guid(d14d0e475cccac4459575f61f2a79a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/Textures/CFX3_T_AuraRunic.png using Guid(d14d0e475cccac4459575f61f2a79a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c5acca263553900d58d1053ed7e34e') in 1.501782 seconds 
+  Import took 1.507256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Materials & Texture/Obstalce Material/anisotropic1.mat
+  artifactKey: Guid(c777581e92330fa49bd3039a32c53430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Texture/Obstalce Material/anisotropic1.mat using Guid(c777581e92330fa49bd3039a32c53430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98862249826d0d615e2bb7abcf6615c0') in 0.318004 seconds 
+  Import took 0.321834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/FImpossible Creations/Editor/Plugins - Editor - Level Design/AD_FimpLevelDesign.Editor.asmdef
+  artifactKey: Guid(264d5521ed1def04d8774789d55ff4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Editor/Plugins - Editor - Level Design/AD_FimpLevelDesign.Editor.asmdef using Guid(264d5521ed1def04d8774789d55ff4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0a8f21e848b9dcc11a1cdd47667980') in 0.001468 seconds 
+  Import took 0.004877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/FImpossible Creations/Editor/Plugins - Editor - Shared/AD_FimpShared.Editor.asmdef
+  artifactKey: Guid(20cafa41225d1ac4ea9e2fc070891a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Editor/Plugins - Editor - Shared/AD_FimpShared.Editor.asmdef using Guid(20cafa41225d1ac4ea9e2fc070891a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3a0af8ed927683f62a6d2c53719120') in 0.001299 seconds 
+  Import took 0.004895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Fire/Color Variants/CFX3_Flying_Ember_Disrupted_Upward (Purple).prefab
+  artifactKey: Guid(eb463f761a10ec24b85bed3eaf49cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs/Fire/Color Variants/CFX3_Flying_Ember_Disrupted_Upward (Purple).prefab using Guid(eb463f761a10ec24b85bed3eaf49cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbde6073f9d61ef9303522adff8a5e3') in 0.003382 seconds 
+  Import took 0.007142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/FImpossible Creations/Shared Tools/AD_FimpSharedTools.asmdef
+  artifactKey: Guid(4d3c0eb3c5c6f2243952516f8611fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Shared Tools/AD_FimpSharedTools.asmdef using Guid(4d3c0eb3c5c6f2243952516f8611fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af7a70f4957db670491d0a44508e041') in 0.002880 seconds 
+  Import took 0.007763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/Materials/Light/CFX3_AuraRunic ADD.mat
+  artifactKey: Guid(5bf91ad953f78d54baebb31d5f5ae4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/Materials/Light/CFX3_AuraRunic ADD.mat using Guid(5bf91ad953f78d54baebb31d5f5ae4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e591a9ab6123af342aa9ad906cec03df') in 0.089961 seconds 
+  Import took 0.093784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs (Mobile)/Magic Dark/Color Variants/CFXM3_DarkMagicAura_B_Runic (Blue).prefab
+  artifactKey: Guid(3b4f7c0880988e14ab94359246f6f5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets kopyası/Cartoon FX/CFX3 Prefabs (Mobile)/Magic Dark/Color Variants/CFXM3_DarkMagicAura_B_Runic (Blue).prefab using Guid(3b4f7c0880988e14ab94359246f6f5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3997de9b83e0c925326fd5f83624e70b') in 0.006134 seconds 
+  Import took 0.011215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/FImpossible Creations/Editor/Plugins - Editor - Other/AD_FimpOther.Editor.asmdef
+  artifactKey: Guid(0e4df0540ccd13341a23f9372d1cb5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Editor/Plugins - Editor - Other/AD_FimpOther.Editor.asmdef using Guid(0e4df0540ccd13341a23f9372d1cb5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59145158a231e3d3993ca29d8657e6cf') in 0.002172 seconds 
+  Import took 0.005868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.261057 seconds.
+  path: Assets/FImpossible Creations/Plugins - Animating/Spine Animator/Demo - Spine Animator/Prefabs/PR_SpineAnimator_FilipedeSpring.prefab
+  artifactKey: Guid(684ca0d009a339444b498f8d06d00e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Plugins - Animating/Spine Animator/Demo - Spine Animator/Prefabs/PR_SpineAnimator_FilipedeSpring.prefab using Guid(684ca0d009a339444b498f8d06d00e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f311506407b98910919e2c9779867d1e') in 0.061968 seconds 
+  Import took 0.066903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.079073 seconds.
+  path: Assets/FImpossible Creations/Plugins - Animating/Spine Animator/Demo - Spine Animator/Prefabs/PR_SpineAnimator_Feetle_Performance.prefab
+  artifactKey: Guid(f1b893ad27ce6e44b93266ec6d06bd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Plugins - Animating/Spine Animator/Demo - Spine Animator/Prefabs/PR_SpineAnimator_Feetle_Performance.prefab using Guid(f1b893ad27ce6e44b93266ec6d06bd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d3a517f721b37bfe04889170e0a2f4') in 0.016979 seconds 
+  Import took 0.021642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004111 seconds.
+  path: Assets/FImpossible Creations/Plugins - Animating/Spine Animator/Demo - Spine Animator/Prefabs/PR_SpineAnimator_Feetle_Performance.prefab
+  artifactKey: Guid(f1b893ad27ce6e44b93266ec6d06bd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FImpossible Creations/Plugins - Animating/Spine Animator/Demo - Spine Animator/Prefabs/PR_SpineAnimator_Feetle_Performance.prefab using Guid(f1b893ad27ce6e44b93266ec6d06bd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d3a517f721b37bfe04889170e0a2f4') in 0.010374 seconds 
+  Import took 0.013246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.941202 seconds.
+  path: Assets/Models/Prefab/Trolley.prefab
+  artifactKey: Guid(e5e482e15533e4e59ac45ea96817ccd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefab/Trolley.prefab using Guid(e5e482e15533e4e59ac45ea96817ccd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6062e623d5b695977020b9c5e1ecb50c') in 0.068374 seconds 
+  Import took 0.073589 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017881 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.343 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1626 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.7 MB.
+System memory in use after: 201.8 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 2.310404 ms (FindLiveObjects: 0.186535 ms CreateObjectMapping: 0.053476 ms MarkObjects: 2.037987 ms  DeleteObjects: 0.031190 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.203 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1626 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.9 MB.
+System memory in use after: 202.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2135.
+Total: 2.371532 ms (FindLiveObjects: 0.200315 ms CreateObjectMapping: 0.058655 ms MarkObjects: 2.078053 ms  DeleteObjects: 0.033274 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.172 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1626 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.1 MB.
+System memory in use after: 202.2 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2137.
+Total: 2.267238 ms (FindLiveObjects: 0.190483 ms CreateObjectMapping: 0.055287 ms MarkObjects: 1.999595 ms  DeleteObjects: 0.020923 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006153 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.182 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1626 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.2 MB.
+System memory in use after: 202.3 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2139.
+Total: 2.217151 ms (FindLiveObjects: 0.208247 ms CreateObjectMapping: 0.054875 ms MarkObjects: 1.932536 ms  DeleteObjects: 0.020661 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1626 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.5 MB.
+System memory in use after: 202.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2141.
+Total: 2.464864 ms (FindLiveObjects: 0.209380 ms CreateObjectMapping: 0.046763 ms MarkObjects: 2.185371 ms  DeleteObjects: 0.022440 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1378.439445 seconds.
+  path: Assets/Materials & Texture/New Lighting Settings.lighting
+  artifactKey: Guid(835d98791d3d44ae891d56ccf3cf46c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Texture/New Lighting Settings.lighting using Guid(835d98791d3d44ae891d56ccf3cf46c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8490c88a0691e6002a561332fc8fd57a') in 0.191265 seconds 
+  Import took 0.197545 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.9 MB.
+System memory in use after: 177.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2141.
+Total: 3.615972 ms (FindLiveObjects: 0.209857 ms CreateObjectMapping: 0.053836 ms MarkObjects: 3.327085 ms  DeleteObjects: 0.024195 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.321 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1626 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.8 MB.
+System memory in use after: 207.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2143.
+Total: 2.061068 ms (FindLiveObjects: 0.175020 ms CreateObjectMapping: 0.054181 ms MarkObjects: 1.812592 ms  DeleteObjects: 0.018227 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 178.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.391 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2880 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.8 MB.
+System memory in use after: 265.7 MB.
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 3343.
+Total: 12.380523 ms (FindLiveObjects: 1.078755 ms CreateObjectMapping: 0.370845 ms MarkObjects: 4.679693 ms  DeleteObjects: 6.249030 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 343.394886 seconds.
+  path: Assets/araba_sepet.fbx
+  artifactKey: Guid(8cc8f11d4b38343f4a80263d36a64a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/araba_sepet.fbx using Guid(8cc8f11d4b38343f4a80263d36a64a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac377cbf2440e3c48132b86d2204a721') in 0.700380 seconds 
+  Import took 0.708792 seconds .
+
