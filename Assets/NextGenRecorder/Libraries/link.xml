@@ -1,0 +1,11 @@
+﻿<linker>
+  <assembly fullname="NextGenRecorder" ignoreIfMissing="1">
+    <type fullname="*" preserve="all" />
+  </assembly>
+  <assembly fullname="NextGenRecorder.NativeBridge.iOS" ignoreIfMissing="1">
+    <type fullname="*" preserve="all" />
+  </assembly>
+  <assembly fullname="NextGenRecorder.NativeBridge.macOS" ignoreIfMissing="1">
+    <type fullname="*" preserve="all" />
+  </assembly>
+</linker>

@@ -1,0 +1,132 @@
+﻿__________________________________________________________________________________________
+
+Package "Spine Animator"
+Version 2.0.1
+
+Made by FImpossible Creations - Filip Moeglich
+https://www.FilipMoeglich.pl
+FImpossibleGames@Gmail.com or Filip.Moeglich@Gmail.com
+
+__________________________________________________________________________________________
+
+Unity Connect: https://connect.unity.com/u/5b2e9407880c6425c117fab1
+Youtube: https://www.youtube.com/channel/UCDvDWSr6MAu1Qy9vX4w8jkw
+Facebook: https://www.facebook.com/FImpossibleCreations
+Twitter (@FimpossibleC): https://twitter.com/FImpossibleC
+Google+: https://plus.google.com/u/3/115325467674876785237
+
+__________________________________________________________________________________________
+Description:
+
+Spine animator is component which animates your skeleton's spine bones accordingly to movement.
+It's simulating real animal-like spine movement without any need of additional animating or coding.
+This component will make your animations look much more real without wasting a lot of time
+for making decent animations of walking / running to sides by your creatures and without
+spending a lot of money for animator to create this animations.
+Another benefit from this procedural animating is that all movement of bones is continious, 
+so it feels more real if your creature is rotating, stopping it etc.
+
+Main features:
+- Includes interactive demo scenes
+- Includes full source code
+- Easy setup and incredible effect
+- Fully cooperating with keyframed animations
+- Not needed any coding
+- Visual friendly inspector window with helpful features
+- Highly customizable
+- Very high performance
+- Blending with original animation
+
+__________________________________________________________________________________________
+
+Packages Contests:
+Spine Animator - Demo Scenes.unitypackage
+Package contains demo scenes for Spine Animator component with script and models from my
+free package fBasicAssets to make demo scenes interactive.
+__________________________________________________________________________________________
+
+Known issues:
+- When your model is very long it can disappear sometimes, that's caused by skinned mesh render which's bounding box is going out of sight
+in next versions there will be added option to adjust bounds dynamically by component.
+- Depends on your skeleton, when you jump or so, skeleton segments can rotate in opposite direction, you can toggle 'Chain Method' inside 'Basic Correction' Tab
+- Connecting tail using spine animator in the same time using spine animator on spine bones can be sometimes problematic, depends on your skeleton
+it can be too hard, then I recommend using my other package "Tail Animator" which gives good result without any additional tweaks
+
+__________________________________________________________________________________________
+Changelog:
+
+v2.0.1
+- Added IK Controlled Bones Fixer which helps Spine Animator handle animation rigs with disconnected leg end limbs like paws 
+- Few inspector window fixes
+- Few straightening behaviour fixes
+- Added "SpineAnimatorQueuer" component to manage updating multiple Spine Animators at once (for creatures which use more than 1 SpineAnimator component)
+
+v2.0.0
+
+!!! Warning for version 2.0.0 !!!
+Many variables changed, some of them was replaced by other ones.
+If you was using Spine Animator previously, click on objects with Spine Animator to convert them to new version and apply changes.
+To avoid compilation errors, remove previous directory of spine animator from project then import V2
+
+- Refreshed inspector GUI
+- Added language support for inspector GUI headers: English, Polish, Russian (translator - t), Japanese (t), Chinese (t), Korean (t)
+- Upgraded scene gizmos to make setting up spine chain easier
+- Refactored code, cleaned and optimized (Now Spine Animator works two times faster and without garbage collector peaks)
+- Removed many anchoring parameters, now they're not needed anymore everything now is detected automatically
+- No more option for positions and rotations not animated, it's replaced by "Detect Zero Keyframes"
+- Now update rate can be defined for more stable motion / optimization in high/low FPS
+- Added many new small parameters
+
+v1.0.7
+
+- Added option "Optimize with mesh" to disable spine animator when target mesh is not visiblei n any camera view
+- Removed SpineAnimator Perchance components
+- Changed placement of parameters inside inspector window so the most common ones are in one tab and advanced ones in other tab
+- Added possibility to remove selective bones from spine chain in "Spine Transforms" foldout
+- Added "Auto anchor" option
+- Improved some gizmos inside scene view for more effective debugging
+
+v1.0.6
+- Added Chain Method "Universal" which is working without any issue with translations in any axis.
+Tested on many models which needed to have selected right chain method before.
+Probably all chain methods will be removed soon if universal chain method will be tested enough.
+- Few fixes inside inspector view and scene view
+- Now you can disable collision for selective segment with "Segment Collision" toggle list
+- Fixed terrain collision when spine leaves terrain mesh in x and z axes
+- Component will try to find correct bones to init chain by searching them by names
+
+v1.0.5
+- Added experimental physics option where you can choose colliders with which collision of spine segments should be detected
+- As physics are implemented, there is variable 'Gravity' which you can use to keep spine on the ground if creature is very long (like millipede)
+- Added tips to creating spine chain inside inspector window
+- Added alert (red gui color) if there is no animator and component tries 'Connect with animator' to remind about that
+- Added new example scene with use of collision also collision added to 'Fillipede' and 'Fockatrice' example scene
+
+
+v1.0.4
+- Reworked main algorithm to work better with complicated bone structure orientations to use under new variable 'ChainMethod' named as 'Axis Based'
+- Added MaxStretching variable to limit stretching of model when using position smoother variable
+- Added 'Springness' variable to adjust more jiggly feeling for models with 'First bone leading' structure
+- Added 'Slithery' variable, when setted to one it gives the same motion like in previous version but cranking it down will result in more damped motion of spine
+- Added component Spine Bone Connector to repair wrong connection of bones without need of rebuilding it inside modelling software
+- Added toggle "Safe Delta Time" to remove chopping motion if fps are very unstable
+- Upgraded limiting angles algorithm resulting in more smooth motion for limiting maximum rotation of spine chain's individual segments
+- Added warning if bone structure is created and main object don't face forward axis (z:blue axis)
+- Above upgrades and fixes made component work better in low fps domain
+- Some small updates inside inspector window
+
+v1.0.3
+- Added icons on the right inside hierarchy to easily find objects with attached Spine Animator
+- Added menu items so you can find Spine Animator also by clicking "Add Component" > "FImpossible Creations" > "Spine Animator"
+
+V1.0.2
+- Added support for physical clock, if you need to have enabled "Animate Physics" in animator, "Physical Clock" variable will make Spine Animator work right with it
+- Added variable "Distances Multiplier" and few others in "Advanced" tab, they can be used to get different results, for example for humanoid spines
+- Added humanoid demo scenes and "Fockatrice" demo scene (monster reminding Cockatrice)
+- Variables which does nothing in playmode will be visible only in editor mode
+- Added variable "CustomAnchorRotationOffset" for correcting in case of custom anchor works wrong
+
+V1.0.1
+- Changed "Pivot Offset" variable name to "Segments Pivot Offset"
+- Added variable "BasePivotOffset" to adjust rotation placement
+- Added text file with manual in text version so anyone who couldn't use it with translator now can

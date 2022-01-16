@@ -1,0 +1,16 @@
+{
+    "name": "AD_FimpAudio",
+    "references": [
+        "GUID:0e6b1f35d8416da46a5e09a445db4184",
+        "GUID:4d3c0eb3c5c6f2243952516f8611fff4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

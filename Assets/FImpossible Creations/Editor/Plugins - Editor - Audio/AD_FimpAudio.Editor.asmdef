@@ -1,0 +1,20 @@
+{
+    "name": "AD_FimpAudio.Editor",
+    "references": [
+        "GUID:449db20ab92c5cf46a7dde2ec28604fb",
+        "GUID:0e6b1f35d8416da46a5e09a445db4184",
+        "GUID:4d3c0eb3c5c6f2243952516f8611fff4",
+        "GUID:103829f02546ce64db83be245c91a2cc"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

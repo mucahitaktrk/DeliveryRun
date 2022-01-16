@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Languages>
+
+  <English>
+    <string name="Character Setup">Character Setup</string>
+    <string name="Tweak Animation">Tweak Animation</string>
+    <string name="Limiting Angles">Limiting Angles</string>
+    <string name="Straigtening Rules">Straightening Rules</string>
+    <string name="Smoothing Motion">Smoothing Motion</string>
+    <string name="Adjustements">Adjustements</string>
+    <string name="Physical Parameters">Physical Parameters</string>
+    <string name="Use Collisions">Use Collisions</string>
+    <string name="Collide With">Collide With</string>
+    <string name="Segments Collision">Segments Collision</string>
+    <string name="Spine Bones Chain">Spine Bones Chain</string>
+    <string name="Optimization And More">Optimization &amp; More</string>
+    <string name="Spine Chain Corrections">Spine Chain Corrections</string>
+    <string name="Lead Bone Behaviour">Leading Bone Behaviour</string>
+    <string name="Prepare Spine Chain">Prepare Spine Chain</string>
+    <string name="Select right bones of your model">Select right bones of your model</string>
+    <string name="Create Spine Chain">Create Spine Chain</string>
+    <string name="Lang_SpineCreateInfo">After creating spine chain you will unlock rest of the parameters (You will be able to adjust it again after that)</string>
+  </English>
+
+  <Polski>
+    <string name="Character Setup">Przygotowanie Postaci</string>
+    <string name="Tweak Animation">Przystosowanie Animacji</string>
+    <string name="Limiting Angles">Ograniczanie Obrotu</string>
+    <string name="Straigtening Rules">Zasady Wyprostowywania</string>
+    <string name="Smoothing Motion">Wygładzanie Ruchu</string>
+    <string name="Adjustements">Poprawki</string>
+    <string name="Physical Parameters">Parametry Fizyki</string>
+    <string name="Use Collisions">Używaj Kolizji</string>
+    <string name="Collide With">Wykryj Kolizję z</string>
+    <string name="Segments Collision">Ustawienia Dla Segmentów</string>
+    <string name="Spine Bones Chain">Łańcuch Kości</string>
+    <string name="Optimization And More">Optymalizacja i Dodatkowe</string>
+    <string name="Spine Chain Corrections">Poprawki Łańcucha Kości</string>
+    <string name="Lead Bone Behaviour">Kość Prowadząca</string>
+    <string name="Prepare Spine Chain">Przygotuj Łańcuch Kręgosłupa</string>
+    <string name="Select right bones of your model">Wybierz właściwe kości twojego modelu</string>
+    <string name="Create Spine Chain">Stwórz Łańcuch</string>
+    <string name="Lang_SpineCreateInfo">Po uworzeniu łańcucha kości, odblokujesz pozostałe parametry (Będziesz miał możliwośc powrotu do tego okna)</string>
+  </Polski>
+
+  <русский>
+    <string name="Character Setup">Настройка персонажа</string>
+    <string name="Tweak Animation">Настройте анимацию</string>
+    <string name="Limiting Angles">Ограничение углов</string>
+    <string name="Straigtening Rules">Правила стратитинга</string>
+    <string name="Smoothing Motion">Сглаживание движения</string>
+    <string name="Adjustements">Корректировки</string>
+    <string name="Physical Parameters">Физические параметры</string>
+    <string name="Use Collisions">Использовать столкновения</string>
+    <string name="Collide With">Столкновение с</string>
+    <string name="Segments Collision">Сегменты Столкновения</string>
+    <string name="Spine Bones Chain">Цепь костей позвоночника</string>
+    <string name="Optimization And More">Оптимизация и многое другое</string>
+    <string name="Spine Chain Corrections">Коррекция позвоночника</string>
+    <string name="Lead Bone Behaviour">Поведение свинцовой кости</string>
+    <string name="Prepare Spine Chain">Подготовить цепь позвоночника</string>
+    <string name="Select right bones of your model">Выберите правильные кости вашей модели</string>
+    <string name="Create Spine Chain">Создать цепь позвоночника</string>
+    <string name="Lang_SpineCreateInfo">После создания цепочки позвоночника вы разблокируете остальные параметры (после этого вы сможете снова их настроить)</string>
+  </русский>
+
+  <中文>
+    <string name="Character Setup">角色设定</string>
+    <string name="Tweak Animation">调整动画</string>
+    <string name="Limiting Angles">极限角度</string>
+    <string name="Straigtening Rules">拉直规则</string>
+    <string name="Smoothing Motion">平滑运动</string>
+    <string name="Adjustements">调整项</string>
+    <string name="Physical Parameters">物理参数</string>
+    <string name="Use Collisions">使用碰撞</string>
+    <string name="Collide With">与物体碰撞</string>
+    <string name="Segments Collision">分段碰撞</string>
+    <string name="Spine Bones Chain">脊柱骨骼链</string>
+    <string name="Optimization And More">优化及更多</string>
+    <string name="Spine Chain Corrections">脊柱矫正</string>
+    <string name="Lead Bone Behaviour">领导骨行为</string>
+    <string name="Prepare Spine Chain">准备脊椎链</string>
+    <string name="Select right bones of your model">选择模型的正确骨骼</string>
+    <string name="Create Spine Chain">创建脊椎链</string>
+    <string name="Lang_SpineCreateInfo">创建书脊链后，您将解锁其余参数（之后您将能够再次对其进行调整</string>
+  </中文>
+
+  <日本語>
+    <string name="Character Setup">キャラクター設定</string>
+    <string name="Tweak Animation">微調整アニメーション</string>
+    <string name="Limiting Angles">角度を制限する</string>
+    <string name="Straigtening Rules">ルールの修正</string>
+    <string name="Smoothing Motion">スムージングモーション</string>
+    <string name="Adjustements">調整</string>
+    <string name="Physical Parameters">物理的パラメータ</string>
+    <string name="Use Collisions">衝突を使用する</string>
+    <string name="Collide With">オブジェクトと衝突</string>
+    <string name="Segments Collision">セグメントの衝突</string>
+    <string name="Spine Bones Chain">脊椎骨チェーン</string>
+    <string name="Optimization And More">最適化など</string>
+    <string name="Spine Chain Corrections">スパインチェーンの修正</string>
+    <string name="Lead Bone Behaviour">主要な骨の行動</string>
+    <string name="Prepare Spine Chain">スパインチェーンを準備する</string>
+    <string name="Select right bones of your model">モデルの正しいボーンを選択する</string>
+    <string name="Create Spine Chain">スパインチェーンを作成</string>
+    <string name="Lang_SpineCreateInfo">スパインチェーンを作成した後、残りのパラメーターのロックを解除します（その後、再度調整できます）</string>
+  </日本語>
+
+  <한국어>
+    <string name="Character Setup">캐릭터 설정</string>
+    <string name="Tweak Animation">비틀기 애니메이션</string>
+    <string name="Limiting Angles">제한 각도</string>
+    <string name="Straigtening Rules">교정 규칙</string>
+    <string name="Smoothing Motion">스무딩 모션</string>
+    <string name="Adjustements">조정</string>
+    <string name="Physical Parameters">물리적 파라미터</string>
+    <string name="Use Collisions">충돌 사용</string>
+    <string name="Collide With">객체와 충돌</string>
+    <string name="Segments Collision">세그먼트 충돌</string>
+    <string name="Spine Bones Chain">척추 뼈 사슬</string>
+    <string name="Optimization And More">최적화 및 기타</string>
+    <string name="Spine Chain Corrections">척추 사슬 교정</string>
+    <string name="Lead Bone Behaviour">주요 뼈 동작</string>
+    <string name="Prepare Spine Chain">척추 사슬 준비</string>
+    <string name="Select right bones of your model">모델의 올바른 뼈를 선택하십시오</string>
+    <string name="Create Spine Chain">척추 사슬 만들기</string>
+    <string name="Lang_SpineCreateInfo">스파인 체인을 생성 한 후 나머지 파라미터를 잠금 해제합니다 (그 후에 다시 조정할 수 있음).</string>
+  </한국어>
+
+</Languages>
